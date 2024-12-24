@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    color: aliceblue;
+    background: #343434;
+}
+.conatiner{
+    width: 26%;
+}
+.card{
+    border-radius: 50px;
+    background: #343434;
+    box-shadow: 5px 5px 10px #191919, -5px -5px 10px #595959;
+    padding: 3%;
+    text-align: center;
+    width: 200%;
+    align-items: center;
+}
+.card h4{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+img #icon{
+    width: 20%;
+}
+h6 #weather{
+    text-transform: capitalize;
+}
+button.refresh{
+    display: block;
+    width: 70px;
+    margin: 10px auto;
+    background: transparent;
+    border: 0;
+    box-shadow: 10px 4px 10px #252525, 5px 5px 18px #4a4a4a;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #6e6e72;
+}
+button.refresh:hover{
+    box-shadow: inset 10px 4xp 10px #252525, 5px 5px 18px #bc1a1a;
+}
